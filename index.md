@@ -1,24 +1,16 @@
 ---
 # layout: page
 title: "The Modern Data Product"
-sidebar:
-    image: https://wmacmillan.github.io/data-products/data_product.svg
-    nav: "docs"
+# sidebar:
+#     item: image: https://wmacmillan.github.io/data-products/data_product.svg
+#     nav: "docs"
 
+toc: true
 # mainfont: aileron
 ---
 # The Modern Data Product Company
 
 ![Nice Graphic of the scenario.](data_product.svg)
-
-<!-- - [The Modern Data Product Company](#the-modern-data-product-company) -->
-- [1. Definitions](#1-definitions)
-  - [1.1. Roles](#11-roles)
-  - [1.2. Data terms](#12-data-terms)
-  - [1.3. Storage Architectures](#13-storage-architectures)
-  - [1.4. Types of storage](#14-types-of-storage)
-  - [1.5. Data Processing](#15-data-processing)
-- [2. Data Curation Projects](#2-data-curation-projects)
 
 A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:
 
