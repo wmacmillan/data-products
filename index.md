@@ -1,7 +1,8 @@
 ---
 # layout: page
 title: "The Modern Data Product"
-# permalink: https://wmacmillan.github.io/modern-data-product-co/
+sidebar:
+    image: https://wmacmillan.github.io/data-products/data_product.svg
 # mainfont: aileron
 ---
 # The Modern Data Product Company
