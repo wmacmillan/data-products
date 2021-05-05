@@ -3,6 +3,8 @@
 title: "The Modern Data Product"
 sidebar:
     image: https://wmacmillan.github.io/data-products/data_product.svg
+    nav: "docs"
+
 # mainfont: aileron
 ---
 # The Modern Data Product Company
