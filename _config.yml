@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 include: 
-  - _data
+  - _data/
 kramdown: 
   math_engine: mathjax
