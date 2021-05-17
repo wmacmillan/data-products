@@ -2,7 +2,7 @@
 author: William MacMillan
 sidebar:
   - title: "Modern Data Product Company"
-    image: data_product.svg
+    image: https://wmacmillan.github.io/data-products/data_product.svg
     image_alt: "The good stuff."
 
 toc: true
