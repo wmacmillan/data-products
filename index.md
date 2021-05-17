@@ -14,7 +14,7 @@ toc: true
 
 A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:
 
-Data $\rightarrow$ Information $\rightarrow$ Knowledge $\rightarrow$ Action $\rightarrow$ Results
+Data $$ \rightarrow $$ Information $ \rightarrow $ Knowledge $\rightarrow$ Action $\rightarrow$ Results
 
 A data product company takes data and transforms the data into information. The information should be presented in such a way that it easily produces knowledge for the user.^[An AI-product company, by comparison, takes data and produces actions. An AI system creates a closed-loop system where results are measured and fed back into the system as data.] The goal of a data product company is to efficiently move from data to the conditions for knowledge acquition in the user base. For a data product with a subscription fee, users are synonomous with clients.^[N.b. For a firm like Facebook, the user base and client base are not the same. Facebook clients are advitisers, and the users are human chattel.]^[This document will attempt to use the term "client" when referring to applications that run on user-owned hardware.]
 
