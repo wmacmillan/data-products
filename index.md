@@ -1,16 +1,16 @@
 ---
-# layout: page
-title: "The Modern Data Product"
-# sidebar:
-#     item: image: https://wmacmillan.github.io/data-products/data_product.svg
-#     nav: "docs"
+author: William MacMillan
+sidebar:
+  - title: "Modern Data Product Company"
+    image: data_product.svg
+    image_alt: "The good stuff."
 
 toc: true
 # mainfont: aileron
 ---
 # The Modern Data Product Company
 
-![Nice Graphic of the scenario.](data_product.svg)
+<!-- ![Nice Graphic of the scenario.](data_product.svg) -->
 
 A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:
 
