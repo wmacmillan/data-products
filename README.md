@@ -2,14 +2,7 @@
 
 ![](data_product.svg)
 
-<!-- - [The Modern Data Product Company](#the-modern-data-product-company) -->
-- [1. Definitions](#1-definitions)
-  - [1.1. Roles](#11-roles)
-  - [1.2. Data terms](#12-data-terms)
-  - [1.3. Storage Architectures](#13-storage-architectures)
-  - [1.4. Types of storage](#14-types-of-storage)
-  - [1.5. Data Processing](#15-data-processing)
-- [2. Data Curation Projects](#2-data-curation-projects)
+[toc]
 
 A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:
 
@@ -36,10 +29,16 @@ Business Purpose
 : specific processes for value creation.
 
 Business Case
-: a seperable domain of one or more business purposes which define value for clients.
+: a seperable domain of one or more business purposes which define value for users.
+
+User
+: someone who derives value from the use of data. Typically a human, though, can be a post-human automated process either as a part of, or separate from, the simulation.
+
+Client
+: the computer driven interfacing tool for the humans. Occasionally used with a different meaning to indicate a paying customer of some sort who is supposed to be getting value from data.
 
 Value
-: utility, with a homomorphism to USD, derived from providing goods or services that ameliorate the human condition. A data product must provide value to clients, which is captured by the business as revenue and, ideally, profit.
+: utility, with a homomorphism to USD, derived from providing goods or services that ameliorate the human condition. A data product must provide value to users, which is captured by the business as revenue and, ideally, profit.
 
 ### 1.1. Roles
 
