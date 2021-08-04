@@ -1,8 +1,8 @@
-# The Modern Data Product Company
-
 ![](data_product.svg)
 
-[toc]
+[TOC]
+
+# The Modern Data Product Company
 
 A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:
 
@@ -21,7 +21,7 @@ A data product company takes data and transforms the data into information. The 
 
     A data product company is one that derives its value proprosition as a function of data. A statistic, formally defined, is a function of a sample. Thus, an analytics company is a data products company and vice versa.
 
-[^2]: N.b. For a firm like Facebook, the user base and client base are not the same. Facebook users are advertisers, and the people that use the Facebook application are human chattel.
+[^2]: N.b. For a firm like Facebook, the user base and paying customer base are not the same. Facebook users are advertisers, and the people that use the Facebook application are human chattel.
 
 A data product is a combination of three elements:
 
@@ -29,9 +29,12 @@ A data product is a combination of three elements:
 2. User Interface
 3. Data Curation
 
-Data curation^[Absent this third element, a company is a data _storage_ company and not a data _product_ company.] carries its own unique status in this case, because data has an abstract value above and beyond the technical details of the systems that store it and the measurement schemes used to create records.
+Data curation[^4] carries its own unique status in this case, because data has an abstract value above and beyond the technical details of the systems that store it and the measurement schemes used to create records.
 
-## 1. Definitions
+[^4]: Absent curation, a company is a data _storage_ company and not a data _product_ company.
+
+## Definitions
+### Global Definitions
 
 The most critical terms of data product companies are:
 
@@ -53,7 +56,7 @@ Client
 Value
 : utility, with a homomorphism to USD, derived from providing goods or services that ameliorate the human condition. A data product must provide value to users, which is captured by the business as revenue and, ideally, profit.
 
-### 1.1. Roles
+### Roles
 
 Data Owner
 : accountable for data quality and fitness.
@@ -80,7 +83,7 @@ DevOps Engineer
 //TODO: add roles for infrastructure, software engineering, project management, other things.
 ```
 
-### 1.2. Data terms
+### Data terms
 
 Datum
 : a quantified record.
@@ -130,7 +133,7 @@ Repository
 Index
 : a registry element designed to aid retreivel of records from a repository. A registry, with an index, combined with a repository makes a database.
 
-### 1.3. Storage Architectures
+### Storage Architectures
 
 Storage
 : refers to both the abstract and tangible elements of storing records. The type of storage is defined by the business case and logic.
@@ -150,7 +153,7 @@ Data warehouse
 Data Lake
 : a loosly consolidated, federated, or completely heterogenous collection of records accessible via multiple retreival mechanisms. A form of "Cold" or "Lukewarm" storage.
 
-### 1.4. Types of storage
+### Types of storage
 
 Hot Storage
 : queries return data in human-scale time durations. Typically under five seconds.
@@ -161,7 +164,7 @@ Cold Storage (alternate adjective Lukewarm)
 Deep Freeze storage
 : where final copies for later audit are stored. Last stop before deletion in a data lifecycle.
 
-### 1.5. Data Processing
+### Data Processing
 
 Ingest
 : all technical and business processes up to, but not including, analytics for a business purpose.
@@ -178,25 +181,25 @@ Transformation(s)
 Trigger
 : both the conditions under and the mechanism for a registered data capture event.
 
-## 2. Data Curation Projects
+## Data Curation Projects
 
 In a pure data management scenario, data curation is the lifeblood of the work to be done. Fundamentally, it is about setting the choice of records to be curated with the data owner, and then appropriately documenting the source(s). This is, at its core, not a technical enterprise. However, one will often find themselves engaging in deeply technical work to support a data set. This is due to either: a lack of earlier investment of energy; or unforseen challenges with a particular dataset. As much as possible the technical elements of processing and publishing data should be established in advance of a data curation project.
 
 - Identification
-  - data owner confirms choice(s) of data set (or content sets, generally)
-  - steward and owner agree upon publication requirements
+    - data owner confirms choice(s) of data set (or content sets, generally)
+    - steward and owner agree upon publication requirements
 - Validation
-  - Steward confirms fitness for purpose with sample(s)
+    - Steward confirms fitness for purpose with sample(s)
 - Archiving
-  - Historical data ingestion, processing, integration, and storage
+    - Historical data ingestion, processing, integration, and storage
 - Capture
-  - create a reoccuring or triggered process for new records
+    - create a reoccuring or triggered process for new records
 - Processing
-  - prepare data for analysis (pre-processing)
-  - run business logic against prepared data, post-capture
+    - prepare data for analysis (pre-processing)
+    - run business logic against prepared data, post-capture
 - Publication
-  - store data for retreival
-  - confirm necessary documentation available
-  - data owner confirms the status of data and publication mechanisms
+    - store data for retreival
+    - confirm necessary documentation available
+    - data owner confirms the status of data and publication mechanisms
 
 ///Footnotes Go Here///
