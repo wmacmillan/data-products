@@ -8,7 +8,20 @@ A data product company is a firm that provides a service to clients by easing th
 
 Data $\rightarrow$ Information $\rightarrow$ Knowledge $\rightarrow$ Action $\rightarrow$ Results
 
-A data product company takes data and transforms the data into information. The information should be presented in such a way that it easily produces knowledge for the user.^[An AI-product company, by comparison, takes data and produces actions. An AI system creates a closed-loop system where results are measured and fed back into the system as data.] The goal of a data product company is to efficiently move from data to the conditions for knowledge acquition in the user base. For a data product with a subscription fee, users are synonomous with clients.^[N.b. For a firm like Facebook, the user base and client base are not the same. Facebook clients are advitisers, and the users are human chattel.]^[This document will attempt to use the term "client" when referring to applications that run on user-owned hardware.]
+A data product company takes data and transforms the data into information. The information should be presented in such a way that it easily produces knowledge for the user.[^1] The goal of a data product company is to efficiently move from data to the conditions for knowledge acquition in the user base. For a data product with a subscription fee, users are synonomous with clients.[^2]
+
+[^1]: 
+    An AI-product company, by comparison, takes data and produces actions. An AI system creates a closed-loop system where results are measured and fed back into the system as data. Where your product stops along the DIKAR chain determines the type of firm.
+
+    1. Data: storage
+    2. Information: analytics
+    3. Knowledge: education
+    4. Action: recommendations
+    5. Results: automation
+
+    A data product company is one that derives its value proprosition as a function of data. A statistic, formally defined, is a function of a sample. Thus, an analytics company is a data products company and vice versa.
+
+[^2]: N.b. For a firm like Facebook, the user base and client base are not the same. Facebook users are advertisers, and the people that use the Facebook application are human chattel.
 
 A data product is a combination of three elements:
 
@@ -84,6 +97,9 @@ Record
 Source(s) of records
 : both the technical and institutional source from which records are captured.
 
+Resource
+: synonm for source of records, but can be inclusive of things that are useful, but don't produce records.
+
 Data retrieval
 : accessing data by means of a query from storage.
 
@@ -104,6 +120,15 @@ Gold
 
 Publication
 : when a dataset is available for query by a production system.
+
+Registry
+: a recording of the metadata and derived charateristics of a set of records, but not of the records themselves.
+
+Repository
+: a storage mechanism for record sets.
+
+Index
+: a registry element designed to aid retreivel of records from a repository. A registry, with an index, combined with a repository makes a database.
 
 ### 1.3. Storage Architectures
 
@@ -143,7 +168,9 @@ Ingest
 
 Capture
 : the process where batches of records are brought into a collection of records from an external source.
-    - Alternate: extraction in an Extract-Transform-Load (ETL) model.^[This nomenclature is to be avoided if the data product is using text documents, as you have two senses of the word "extract" in that case. In an ETL, you are capturing the data by "extracting" it from the data store where you initally find it. With NLP work, you also need to "extract" the text from a document for processing. In the latter case, this occurs during pre-processing.]
+    - Alternate: extraction in an Extract-Transform-Load (ETL) model.[^3]
+
+[^3]: This nomenclature is to be avoided if the data product is using text documents, as you have two senses of the word "extract" in that case. In an ETL, you are capturing the data by "extracting" it from the data store where you initally find it. With NLP work, you also need to "extract" the text from a document for processing. In the latter case, this occurs during pre-processing.
 
 Transformation(s)
 : any data cleaning, repackaging, indexing, validation, verification, or quality assurance that occurs before a critical business logic. Alternate term: pre-processing.
@@ -152,6 +179,8 @@ Trigger
 : both the conditions under and the mechanism for a registered data capture event.
 
 ## 2. Data Curation Projects
+
+In a pure data management scenario, data curation is the lifeblood of the work to be done. Fundamentally, it is about setting the choice of records to be curated with the data owner, and then appropriately documenting the source(s). This is, at its core, not a technical enterprise. However, one will often find themselves engaging in deeply technical work to support a data set. This is due to either: a lack of earlier investment of energy; or unforseen challenges with a particular dataset. As much as possible the technical elements of processing and publishing data should be established in advance of a data curation project.
 
 - Identification
   - data owner confirms choice(s) of data set (or content sets, generally)
@@ -169,3 +198,5 @@ Trigger
   - store data for retreival
   - confirm necessary documentation available
   - data owner confirms the status of data and publication mechanisms
+
+///Footnotes Go Here///
