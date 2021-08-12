@@ -15,12 +15,38 @@ with open('README.md', 'rb') as f:
 
 html_content = html(
     head(
+        style("""
+   main {
+      display: flex;
+      width:90%;
+    }
+
+    .main-content {
+      flex: 5
+    }
+
+    .sidenav {
+      flex: 1;
+      height: 100%;
+      background-color: #fffff8;
+      padding: 1%;
+    }
+
+    .sidenav a {
+      font-size: .8em;
+    }
+
+    .sidenav a:hover {
+      color: hsl(0, 30%, 65%);
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }"""
+        ),
         link(_rel="stylesheet",
              _href="tufte.css"
             ),
-        # link(_rel="stylesheet",
-        #      _href="tweaks.css"
-        #     ),
         script("""
             MathJax = {
                 tex: {
@@ -35,7 +61,13 @@ html_content = html(
             _type="text/javascript"
         )
     ),
-    body(article(main(content)))
+    body(
+        article(
+            main(
+                content
+            )
+        )
+    )
 )
 
 with open('dev_index.html', 'wb') as f:
