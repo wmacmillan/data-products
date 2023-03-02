@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+  padding: .5rem;
+  line-height: 1.25;
+  overflow-x: scroll;
+}
+
+a,
+a:visited {
+  color: #3498db;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #2980b9;
+}
+
+.modest-no-decoration {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  line-height: 1.85;
+}
+
+p,
+.modest-p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+h1,
+.modest-h1,
+h2,
+.modest-h2,
+h3,
+.modest-h3,
+h4,
+.modest-h4 {
+  margin: 1.414rem 0 .5rem;
+  font-weight: inherit;
+  line-height: 1.42;
+}
+
+h1,
+.modest-h1 {
+  margin-top: 0;
+  font-size: 2.998rem;
+}
+
+h2,
+.modest-h2 {
+  font-size: 1.827rem;
+}
+
+h3,
+.modest-h3 {
+  font-size: 1.4rem;
+}
+
+h4,
+.modest-h4 {
+  font-size: 1.414rem;
+}
+
+h5,
+.modest-h5 {
+  font-size: 1.121rem;
+}
+
+h6,
+.modest-h6 {
+  font-size: .88rem;
+}
+
+small,
+.modest-small {
+  font-size: .707em;
+}
+
+/* https://github.com/mrmrs/fluidity */
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+
+html {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 48rem;
+  line-height: 1.45;
+  padding: .25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arimo, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 2px solid #fafafa;
+  margin-bottom: 1.15rem;
+  padding-bottom: .5rem;
+  text-align: left;
+}
+
+blockquote {
+  border-left: 8px solid #fafafa;
+  padding: 1rem;
+}
+
+pre,
+code {
+  background-color: #fafafa;
+}
+    </style>
+</head>
+<body>
+<h1 id="pitch-deck-structure-and-narrative-guidebook">Pitch deck
+Structure and Narrative Guidebook</h1>
+<p>This is for a standalone deck that would also be used for pitching on
+video calls.</p>
+<h2 id="what-are-we-doing">What are we doing?</h2>
+<p>Pitch decks actually vary little regardless of the narrative chosen
+or the more subtle use case for any given presentation. That structure,
+which will follow below, is, essentially, Monroe’s Motivating Sequence
+(MMS) plus forematter and an appendix. In actual practice, narrative
+changes are accomplished by changing one or two slides at most, for any
+given fundraising scenario. The goal should be to stamp out free
+thinking and creativity and maximize the ratio of $$$/pitch. The slide
+and number of slides per section should be considered unalterable.<a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></p>
+<p>As a reminder, MMS is a (1) relevant story that exemplifies a (2)
+problem that you have a (3) unique solution for that you will (4)
+visualize for the listener such that they hear your (5) call to action
+in order to get engaged.</p>
+<ol type="1">
+<li>Story
+<ul>
+<li>This should be a cold open, basically.</li>
+<li>It should be human-centric, and can be personal to you.</li>
+<li>The problem should be obvious to the point where it’s almost
+unnecessary to state it directly.</li>
+</ul></li>
+<li>Problem
+<ul>
+<li>Nevertheless, you should state it directly.</li>
+<li>Make it really, really obvious.</li>
+</ul></li>
+<li>Solution
+<ul>
+<li>In a pitch, it’s noteworthy that the solution you’re presenting is
+actually your company as an investment opportunity and not your product
+as a solution to the problem presented. However, you should maintain the
+charade that it’s the potential customer’s problems you are
+solving.</li>
+</ul></li>
+<li>Visualization
+<ul>
+<li>The target here is to get them to really feel like they know how
+it’s used/what it’s like to invest.</li>
+</ul></li>
+<li>Call-to-Action
+<ul>
+<li>Be direct.</li>
+</ul></li>
+</ol>
+<h2 id="deck-structure">Deck Structure</h2>
+<p>The list number indicates slide order in the deck. For most items
+there is a 1:1 ratio of line item to number of slides.</p>
+<h3 id="forematter">Forematter</h3>
+<ol type="1">
+<li>Title slide</li>
+<li>Executive Summary (including Value Prop in one sentence)</li>
+<li>Team</li>
+</ol>
+<h3 id="setup">Setup</h3>
+<ol start="4" type="1">
+<li>Story + Problem</li>
+<li>Problem Statement</li>
+</ol>
+<h3 id="visualization">Visualization</h3>
+<ol start="6" type="1">
+<li>Us as Solution
+<ol type="1">
+<li>Product</li>
+<li>Market for Product</li>
+</ol></li>
+<li>Product as Solution</li>
+<li>How the Product Works</li>
+<li>How the Product Solves the Problem
+<ol type="1">
+<li>Features</li>
+<li>What the product looks like</li>
+<li>User Testimonials</li>
+</ol></li>
+<li>How the Users Turn into Revenue
+<ol type="1">
+<li>Revenue Model</li>
+<li>Market Size</li>
+</ol></li>
+<li>How Users Will Be Gained (G2M)
+<ol type="1">
+<li>Growth Trajectory</li>
+<li>G2M strategy</li>
+</ol></li>
+<li>Costs of Gaining Users</li>
+<li>The Team that Will gain said Users</li>
+</ol>
+<h3 id="cta">CTA</h3>
+<ol start="14" type="1">
+<li>What that Team Needs
+<ol type="1">
+<li>Guidance</li>
+<li>Partners</li>
+<li>Money</li>
+</ol></li>
+<li>How that Money will be spent</li>
+<li>How a listener can take action (specifics on ask)</li>
+<li>Close Slide(s)
+<ol type="1">
+<li>Value Prop</li>
+<li>Contact</li>
+</ol></li>
+</ol>
+<h3 id="appendix-section-of-deck">Appendix Section of Deck</h3>
+<ol start="18" type="1">
+<li>Product Roadmap</li>
+<li>Slides that answer likely questions</li>
+<li>Slides that serve alterative narratives</li>
+<li>Other general Slides</li>
+</ol>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>You could, of course, alter the number, but it should
+really only be done for purposes of showmanship (e.g. a dramatic reveal,
+nifty transition on the deck, etc.). Honestly, only if you’re doing some
+big presentation based off the deck should you change anything related
+to the structure.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
